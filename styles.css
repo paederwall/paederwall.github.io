@@ -1,0 +1,140 @@
+html{
+  min-height: 100%;
+  position:relative;
+}
+
+body {
+    background-color: #fff;
+    background: rgb(255, 255, 255);
+   /*background: linear-gradient(180deg, #616161 0%, #000000 50%);*/
+    color: rgb(73, 73, 73);
+    margin: 0;
+    font: 1.2em / 1.2 sans-serif, Arial, Helvetica;
+    height: 100%;
+  }
+
+aside, article {
+  background-color:rgb(243, 243, 243);
+  border-radius: 5px;
+  padding: 1em;
+}
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 150%;
+    margin: 0 auto;
+    max-width: 980px;
+    min-width: 240px;
+    text-align: center;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    padding: 1em;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+ /* nav a, footer a {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#e052a0,#f15c41);
+    border-radius: 2px;
+    text-decoration: none;
+    padding: .5em 1em;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  }
+*/
+
+nav a, footer a {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+/*
+  nav a:hover, footer a:hover {
+    background-image:linear-gradient(to right,#3ec7e0,#526bf4);
+  }
+  */
+
+  nav a:hover, footer a:hover {
+    border-bottom:rgb(169, 163, 255) 5px solid;
+  }
+
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+  }
+
+  nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    margin: auto;
+  }
+
+  .feature {
+    float: right;
+    margin-right: 1em;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-gap: 10px;
+  }
+
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+  }
+
+  footer {
+    background-color: #fff;
+    bottom: 0;
+    max-width: 980px;
+    margin: auto;
+    padding: 1em;
+    border-top: 1px solid rgb(228, 228, 228);
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
